@@ -14,7 +14,7 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO
       ko-KR   : *KO
-    url: /archive.html
+    url: /about.html
 
   - titles:
       en      : &EN       Get Started
@@ -31,7 +31,7 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO
       ko-KR   : *KO
-    url: /about.html
+    url: /getStarted.html
 
       - titles:
           en      : &EN       Projects
@@ -46,6 +46,6 @@ header:
           zh-Hant : &ZH_HANT
           zh-TW   : *ZH_HANT
           zh-HK   : *ZH_HANT
-          ko      : &KO       
+          ko      : &KO
           ko-KR   : *KO
-        url: /about.html
+        url: /projects.html
