@@ -1,4 +1,0 @@
----
-title: ethereum
-layout: default
----

@@ -1,9 +1,0 @@
-name: Zurich Blockchain Developers R&D
-title: Zurich Blockchain Developers R&D
-
-
-kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
