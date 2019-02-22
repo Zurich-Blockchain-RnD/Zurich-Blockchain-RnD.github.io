@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+- title: About Us
+  url: /about.html
+
+- title: Get Started
+  url: /getStarted.html
+
+- title: Projects
+  url: /projects.html
+=======
 header:
   - titles:
       en      : &EN       About US
@@ -49,3 +59,4 @@ header:
           ko      : &KO
           ko-KR   : *KO
         url: /projects.html
+>>>>>>> origin

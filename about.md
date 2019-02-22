@@ -1,66 +1,34 @@
 ---
-layout: article
-titles:
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-key: page-about
+title: About Us
+layout: default
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
-
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
-
-```javascript
-(() => console.log('Hello, World!'))();
-```
-
-## Features
-
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
-
-## Skins
-
-TeXt has 6 built-in skins, you can also set up your own skin.
-
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+<!-- start what we offer section -->
+<section>
+    <div class="container">
+        <div class="section-heading">
+            <h3>About Us</h3>
+            <p class="width-85 sm-width-75 xs-width-95">Our group is a platform to socialize, network, learn, build and research and more. We organize into two main categories, research and development. In both categories anyone can form or join a team to develop and learn something they are passionate about.
+              Every team creates and controls a public GitHub repository in our organization and can use it to collaborate, share, and advance their topics of choice. We have software development groups for full stack smart contract development or even protocol level development, we have groups for researching blockchain technologies as well as for researching legal, regulatory, environmental, etc, topics in relation to blockchain technologies. It's completely up to you what you want to do and we will do our best to support your R or D (or both). Our members can also run workshops and other activities for select teams or for our whole group from time to time.
+</p>
+        </div>
+        <div class="owl-carousel owl-theme" id="services-carousel">
+            <div class="service-box">
+                <div class="img-holder"><img alt="service-img" src="assets/img/content/about/1.jpg"></div>
+            </div>
+            <div class="service-box">
+                <div class="img-holder"><img alt="service-img" src="assets/img/content/about/2.jpg"></div>
+            </div>
+            <div class="service-box">
+                <div class="img-holder"><img alt="service-img" src="assets/img/content/about/3.jpg"></div>
+            </div>
+            <div class="service-box">
+                <div class="img-holder"><img alt="service-img" src="assets/img/content/about/4.jpg"></div>
+            </div>
+            <div class="service-box">
+                <div class="img-holder"><img alt="service-img" src="assets/img/content/about/5.jpg"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end service section -->
