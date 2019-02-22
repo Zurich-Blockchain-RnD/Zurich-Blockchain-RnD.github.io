@@ -1,0 +1,19 @@
+{% include headnpreloader.html %}
+<!-- start main-wrapper section -->
+<div class="main-wrapper">
+  {% include header.html %}
+  {% include base.html %}
+
+  {% include js.html %}
+  <ul class="myposts">
+  {% for post in site.categories.projects %}
+      <li><a href="{{ post.url }}">{{ post.title}}</a>
+      <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+  {% endfor %}
+  </ul>
+
+    {{content}}
+  {% include footer.html %}
+</div>
+<!-- end main-wrapper section -->
