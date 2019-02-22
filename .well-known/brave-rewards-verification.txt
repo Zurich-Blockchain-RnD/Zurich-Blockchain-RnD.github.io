@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: zurich-blockchain-rnd.github.io
-Token: 0e509b2fc1d136758928af8ca63dba68be685e3271ca6a69bc2be7d78b602e18
