@@ -8,7 +8,7 @@
     /* ----------------------------------
 
     JS Active Code Index
-            
+
         01. Preloader
         02. Sticky Header
         03. Scroll To Top
@@ -24,9 +24,9 @@
         13. CountUp
         14. Countdown
         15. Datepicker
-        16. Isotop        
-        
-    ---------------------------------- */    
+        16. Isotop
+
+    ---------------------------------- */
 
 (function($) {
 
@@ -65,12 +65,12 @@
                 logowhite.attr('src', 'img/logos/logo-white.png');
                 logowhitedark.attr('src', 'img/logos/logo-white.png');
                 logo2.attr('src', 'img/logos/logo-2-light.png');
-                logo4.attr('src', 'img/logos/logo-4.png');
+                logo4.attr('src', 'assets/img/logos/logo-4.png');
                 logo5.attr('src', 'img/logos/logo-5-light.png');
                 logo6.attr('src', 'img/logos/logo-6.png');
                 logo7.attr('src', 'img/logos/logo-7.png');
                 logo8.attr('src', 'img/logos/logo-8.png');
-            } 
+            }
             else {
                 $("header").removeClass("fixedHeader").addClass("scrollHeader");
                 logoinner.attr('src', 'img/logos/logo.png');
@@ -78,7 +78,7 @@
                 logowhite.attr('src', 'img/logos/logo-white.png');
                 logowhitedark.attr('src', 'img/logos/logo-dark.png');
                 logo2.attr('src', 'img/logos/logo-2-dark.png');
-                logo4.attr('src', 'img/logos/logo-4.png');
+                logo4.attr('src', 'assets/img/logos/logo-4.png');
                 logo5.attr('src', 'img/logos/logo-5-dark.png');
                 logo6.attr('src', 'img/logos/logo-6.png');
                 logo7.attr('src', 'img/logos/logo-7.png');
@@ -118,7 +118,7 @@
                 $(this).css("background-image", "url(" + $(this).data("background") + ")");
             }
         });
-        
+
         /*------------------------------------
             05. Video
         --------------------------------------*/
@@ -189,7 +189,7 @@
 
         /*------------------------------------
             10. FullScreenHeight and screenHeight with resize function
-        --------------------------------------*/        
+        --------------------------------------*/
 
         function SetResizeContent() {
             fullScreenHeight();
@@ -267,8 +267,8 @@
                     items: 1
                 }
             }
-        })        
-        
+        })
+
         // Team owlCarousel
         $('.team .owl-carousel').owlCarousel({
             loop:true,
@@ -315,7 +315,7 @@
                 }
             }
         })
-           
+
         // Blog grid carousel
         $('#blog-grid').owlCarousel({
             loop: true,
@@ -418,7 +418,7 @@
                 481: {
                     items: 2,
                     margin: 5,
-                },                
+                },
                 500: {
                     items: 2,
                     margin: 20,
@@ -475,7 +475,7 @@
                 768: {
                     nav: true
                 }
-            }            
+            }
         });
 
         // Clients carousel
@@ -539,7 +539,7 @@
             mouseDrag:false,
             animateIn: 'fadeIn',
             animateOut: 'fadeOut'
-        });   
+        });
 
         // Default owlCarousel
         $('.owl-carousel').owlCarousel({
@@ -549,7 +549,7 @@
             margin: 0,
             autoplay:true,
             smartSpeed:500
-        });   
+        });
 
         // Slider text animation
         var owl = $('.slider-fade');
@@ -810,9 +810,9 @@
                                 hide_delay:200,
                                 hide_delay_mobile:1200,
                                 hide_under:0,
-                                hide_over:9999, 
+                                hide_over:9999,
                                 direction:"horizontal",
-                                space:12,       
+                                space:12,
                                 h_align:"center",
                                 v_align:"bottom",
                                 h_offset:0,
@@ -889,9 +889,9 @@
                                 hide_delay:200,
                                 hide_delay_mobile:1200,
                                 hide_under:0,
-                                hide_over:9999, 
+                                hide_over:9999,
                                 direction:"vertical",
-                                space:18,       
+                                space:18,
                                 h_align:"right",
                                 v_align:"center",
                                 h_offset:40,
@@ -968,9 +968,9 @@
                                 hide_delay:200,
                                 hide_delay_mobile:1200,
                                 hide_under:0,
-                                hide_over:9999, 
+                                hide_over:9999,
                                 direction:"vertical",
-                                space:18,       
+                                space:18,
                                 h_align:"right",
                                 v_align:"center",
                                 h_offset:40,
@@ -1068,14 +1068,14 @@
         /*------------------------------------
             15. Datepicker
         --------------------------------------*/
-        
+
         if ($(".datepicker").length !== 0) {
             $('.datepicker').datepicker({
                 format: 'mm/dd/yyyy',
                 startDate: '-3d'
             })
         }
-        
+
     });
 
     // === when window loading === //
