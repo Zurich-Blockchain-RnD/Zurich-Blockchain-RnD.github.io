@@ -65,7 +65,7 @@
                 logowhite.attr('src', 'img/logos/logo-white.png');
                 logowhitedark.attr('src', 'img/logos/logo-white.png');
                 logo2.attr('src', 'img/logos/logo-2-light.png');
-                logo4.attr('src', 'assets/img/logos/logo-4.png');
+                logo4.attr('src', '/assets/img/logos/logo-4.png');
                 logo5.attr('src', 'img/logos/logo-5-light.png');
                 logo6.attr('src', 'img/logos/logo-6.png');
                 logo7.attr('src', 'img/logos/logo-7.png');
@@ -78,7 +78,7 @@
                 logowhite.attr('src', 'img/logos/logo-white.png');
                 logowhitedark.attr('src', 'img/logos/logo-dark.png');
                 logo2.attr('src', 'img/logos/logo-2-dark.png');
-                logo4.attr('src', 'assets/img/logos/logo-4.png');
+                logo4.attr('src', '/assets/img/logos/logo-4.png');
                 logo5.attr('src', 'img/logos/logo-5-dark.png');
                 logo6.attr('src', 'img/logos/logo-6.png');
                 logo7.attr('src', 'img/logos/logo-7.png');
