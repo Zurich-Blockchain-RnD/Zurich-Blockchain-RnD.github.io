@@ -178,25 +178,44 @@ function initMap() {
           ]
       }
   ],
-  
+
   {name: 'Styled Map'});
 
   // Create a map object, and include the MapTypeId to add
   // to the map type control.
-  var myLatlng = new google.maps.LatLng(32.754446, -97.224821);
+  var myLatlng = new google.maps.LatLng(47.3626077, 8.548824);
+  var myLatlng2 = new google.maps.LatLng(47.364961010541535,8.546891212463379)
   var mapOptions = {
-    zoom: 12,
-    center: myLatlng
+    zoom: 15,
+    center: myLatlng2
   }
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
   var marker = new google.maps.Marker({
       position: myLatlng,
-      title:"Hello World!"
   });
+
+  var infowindow =  new google.maps.InfoWindow({
+	map: map
+  });
+  infowindow.setContent(
+    '<p><strong>Name:</strong> Chainwork</p>' +
+    '<p><strong>Address:</strong> Dufourstrasse 43, 8008 Zürich</p>' +
+    '<p><strong>Phone:</strong> 079 199 80 08</p>' +
+    '<p><strong>Website:</strong> <a href="https://www.chainwork.com/"> https://www.chainwork.com</a></p>');
+
 
   // To add the marker to the map, call setMap();
   marker.setMap(map);
+
+  // popupp opening and closing with hivering of the mouse
+  google.maps.event.addListener(marker, 'mouseover', function() {
+	infowindow.open(map, this);
+  });
+
+  google.maps.event.addListener(marker, 'mouseout', function() {
+	infowindow.close();
+  });
 
   //Associate the styled map with the MapTypeId and set it to display.
   map.mapTypes.set('styled_map', styledMapType);
