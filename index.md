@@ -8,7 +8,7 @@ points:
 ---
 
 <!-- Start banner Section -->
-<section class="parallax screen-height" data-overlay-dark="7" data-background="assets/img/slider/background.png">
+<section class="parallax screen-height" data-overlay-dark="5" data-background="assets/img/slider/background.png">
     <div class="absolute-middle-center z-index-1 width-100">
         <div class="container">
             <div class="row">
