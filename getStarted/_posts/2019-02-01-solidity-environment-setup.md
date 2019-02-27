@@ -20,14 +20,19 @@ description: Here goes the description of the Solidity Environment Setup. This w
               <div class="col-12">
               {% highlight html %}
 
+              <div class="col-lg-12 col-md-12">
+                 <h6>che palle</h6>
+                 <p> hai ragione </p>
+              </div>
               Insert your code here
               {% endhighlight %}
               <p>Than normal paraghraph</p>
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-              {% highlight html %}
+              {% highlight liquid %}
 
               other code ...
               {% endhighlight %}
+
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 name: Zurich Blockchain R&D
 title: Zurich Blockchain R&D
 
-
+highlighter: rouge
 kramdown:
  input: GFM
  auto_ids: true
