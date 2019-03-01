@@ -13,7 +13,7 @@ description: Here goes the description of the Environmental Blockchain project. 
             <div class="row project-single-text margin-30px-tb">
                 <div class="col-lg-7 col-md-12">
                     <div class="section-heading half left">
-                        <h6>{{ page.title }}</h6>
+                        <h4>{{ page.title }}</h4>
                     </div>
                     <p>{{ page. description }}</p>
                 </div>

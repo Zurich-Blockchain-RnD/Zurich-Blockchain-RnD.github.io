@@ -127,6 +127,8 @@ h6 {font-size:22px;}
 .text-light-gray {color:#d6d5d5;}
 .text-very-light-gray {color:#ededed;}
 .text-default-color { color: #6f6f6f; }
+.text-url a { color: #0000EE; }
+.text-url a:visited{ color: #551A8B; }
 
 /* letter spacing */
 .no-letter-spacing {letter-spacing:0px;}

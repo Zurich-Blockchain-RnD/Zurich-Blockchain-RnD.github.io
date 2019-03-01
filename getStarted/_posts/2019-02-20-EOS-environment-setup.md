@@ -12,7 +12,7 @@ description: Here goes the description of the EOS environment setup. This will b
         <div class="project-single">
             <div class="row project-single-text margin-30px-tb">
                 <div class="col-lg-12 col-md-12">
-                   <h6>{{ page.title }}</h6>
+                   <h4>{{ page.title }}</h4>
                    <p>{{ page. description }}</p>
                 </div>
             </div>
