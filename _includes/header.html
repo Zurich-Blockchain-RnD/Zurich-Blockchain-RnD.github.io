@@ -1,15 +1,15 @@
 <!-- start header section -->
 <header>
 
-    <div id="top-bar" class="top-bar-style2">
+    <!--<div id="top-bar" class="top-bar-style2">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-xs-12">
                     <div class="top-bar-info">
-                        <!--<ul>
+                        <ul>
                             <li><i class="fas fa-mobile-alt"></i>(+123) 456 7890</li>
                             <li><i class="fas fa-envelope"></i>addyour@emailhere</li>
-                        </ul>-->
+                        </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-3 xs-display-none">
@@ -17,11 +17,13 @@
                       <li><a href="https://github.com/Zurich-Blockchain-RnD" target="_blank"><i class="fab fa-github"></i></a></li>
                       <li><a href="https://t.me/joinchat/HZoyO0ZIiMTKmZh5xV0fKQ" target="_blank"><i class="fab fa-telegram"></i></a></li>
                       <li><a href="https://www.meetup.com/it-IT/zurichblockchainrnd/" target="_blank"><i class="fab fa-meetup"></i></a></li>
+                      <li><a href="https://www.linkedin.com/company/zurichblockchainrnd/about/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                      <li><a href="https://zurich-blockchain-rnd.slack.com/" target="_blank"><i class="fab fa-slack"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <div class="navbar-default">
 
@@ -61,6 +63,10 @@
                                 <li><a href="{{ base.html }}/about.html">About Us</a></li>
                                 <li><a href="{{ base.html }}/getStarted.html">Get Started</a>
                                     <ul>
+                                      {% for post in site.categories.Guides %}
+                                          <li><a href="{{ post.url }}">{{ post.title}}</a>
+                                          </li>
+                                      {% endfor %}
                                       {% for post in site.categories.getStarted %}
                                           <li><a href="{{ post.url }}">{{ post.title}}</a>
                                           </li>

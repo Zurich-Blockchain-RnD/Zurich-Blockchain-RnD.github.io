@@ -15,7 +15,9 @@ points:
                 <div class="col-md-12">
                     <div class="text-center center-col width-80 xs-width-100">
                         <h1 class="text-white font-size50 md-font-size42 sm-font-size28 font-weight-700">{{ site.title }}</h1>
-                        <p class="text-white width-80 xs-width-100 center-col font-size16 line-height-30 xs-font-size14 xs-line-height-26">Exhaustive technology of implementing multi purpose projects is putting your project successful. Exhaustive technology of implementing multi purpose projects is putting.</p>
+                        <p class="text-white width-80 xs-width-100 center-col font-size16 line-height-30 xs-font-size14 xs-line-height-26">
+                          The revolution of blockchain is not going to happen from outside the system; it's going to happen from within the system.
+                          - <i>Brad Garlinghouse</i></p>
                     </div>
                 </div>
             </div>
@@ -29,7 +31,9 @@ points:
     <div class="container">
         <div class="section-heading"><span>How We Work</span>
             <h3>{{page.points[0]}} - {{page.points[1]}} - {{page.points[2]}}</h3>
-            <p class="width-55 sm-width-75 xs-width-95">Business consulting excepteur sint occaecat cupidatat consulting non proident, sunt in culpa qui officia deserunt laborum Market.</p>
+            <p class="width-55 sm-width-75 xs-width-95">
+            It doesn't matter if you are a programmer or a crypto enthusiast, whether you work in the field or not. If you have an idea for a project, if you want to participate in one of the existing ones, or if you simply want to have a chat, come and visit us during one of our meetups to meet us and become a ZBD.
+          </p>
         </div>
     </div>
 
