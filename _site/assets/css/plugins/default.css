@@ -127,7 +127,9 @@ h6 {font-size:22px;}
 .text-light-gray {color:#d6d5d5;}
 .text-very-light-gray {color:#ededed;}
 .text-default-color { color: #6f6f6f; }
-.text-url a { color: #0000EE; }
+.text-url a {
+  color: #0000EE;
+  font-weight: 600;}
 .text-url a:visited{ color: #551A8B; }
 
 /* letter spacing */
@@ -1650,6 +1652,7 @@ section {padding: 90px 0; overflow: hidden; background: #fff;}
     h4 {font-size:28px;}
     h5 {font-size:24px;}
     h6 {font-size:20px;}
+
 
     /* line height */
     .md-line-height-normal {line-height:normal;}
