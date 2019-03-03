@@ -32,3 +32,15 @@ layout: default
     </div>
 </section>
 <!-- end service section -->
+
+<!-- start bloquote section -->
+<section class="no-padding">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12" id="map"></div>
+        </div>
+
+    </div>
+</section>
+<!-- end bloquote section -->

@@ -1,12 +1,12 @@
 ---
-title: Environmental Blockchain
+title: Insurance
 layout: default
-folder: https://github.com/Zurich-Blockchain-RnD/environmental-blockchain
+folder: https://github.com/Zurich-Blockchain-RnD/insurance
 thumbnail: /assets/img/blog/getStarted/Do-not-delete.png
 responsible:
-        link: https://github.com/michaeldaldini/
-        name: Michael Daldini
-description: Here goes the description of the Environmental Blockchain project. This will be shown also on the Get Projects page.
+        link: https://github.com/TammyStar
+        name: TammyStar
+description: Here goes the description of the Insurance project. This will be shown also on the Get Projects page.
 ---
 
 <section>
@@ -25,10 +25,10 @@ description: Here goes the description of the Environmental Blockchain project. 
                     </div>
                     <div class="project-single-info">
                         <ul class="no-margin">
-                        <li><span class="vertical-align-top">Status:</span> <span class="value">Ongoing</span></li>
-                        <!--<li><span class="vertical-align-top">Started:</span> <span class="value">{{ page.date | date_to_long_string }}</span></li>-->
-                        <li><span class="vertical-align-top">GitHub:</span> <span class="value"><a href="{{ page.folder }}">link</a></span></li>
-                        <li><span class="vertical-align-top">Responsible:</span> <span class="value"><a href="{{ page.responsible.link }}">{{ page.responsible.name }}</a></span></li>
+                            <li><span class="vertical-align-top">Status:</span> <span class="value">Ongoing</span></li>
+                            <!--<li><span class="vertical-align-top">Started:</span> <span class="value">{{ page.date | date_to_long_string }}</span></li>-->
+                            <li><span class="vertical-align-top">GitHub:</span> <span class="value"><a href="{{ page.folder }}">link</a></span></li>
+                            <li><span class="vertical-align-top">Responsible:</span> <span class="value"><a href="{{ page.responsible.link }}">{{ page.responsible.name }}</a></span></li>
                         </ul>
                     </div>
                 </div>

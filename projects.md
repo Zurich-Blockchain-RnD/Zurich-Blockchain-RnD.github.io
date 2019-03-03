@@ -19,7 +19,7 @@ layout: default
                         <ul class="meta">
                           {% if post.responsible %}
                             <li>
-                                <a href="{{ post.responsible }}">
+                                <a href="{{ post.responsible.link }}">
                                     <i aria-hidden="true" class="fa fa-user"></i> Responsible
                                 </a>
                             </li>

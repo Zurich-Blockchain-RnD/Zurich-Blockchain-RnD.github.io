@@ -2,7 +2,9 @@
 title: EOS environment setup
 layout: default
 thumbnail: /assets/img/blog/getStarted/Do-not-delete.png
-responsible: https://github.com/michaeldaldini/
+responsible:
+        link: 
+        name:
 folder:
 description: Here goes the description of the EOS environment setup. This will be shown also on the Get Started page.
 ---

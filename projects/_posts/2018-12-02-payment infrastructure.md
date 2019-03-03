@@ -3,6 +3,8 @@ title: Payment Infrastructure
 layout: default
 thumbnail: /assets/img/blog/getStarted/Do-not-delete.png
 responsible:
+        link: 
+        name:
 folder: https://github.com/Zurich-Blockchain-RnD/payment-infrastructure
 description: Here goes the description of the payment infrastructure project. This will be shown also on the Get Projects page.
 ---
@@ -23,9 +25,10 @@ description: Here goes the description of the payment infrastructure project. Th
                     </div>
                     <div class="project-single-info">
                         <ul class="no-margin">
-                            <li><span class="vertical-align-top">Status:</span> <span class="value">Ongoing</span></li>
-                            <li><span class="vertical-align-top">Started:</span> <span class="value">{{ page.date | date_to_long_string }}</span></li>
-                            <li><span class="vertical-align-top">GitHub:</span> <span class="value"><a href="{{ page.folder }}">link</a></span></li>
+                        <li><span class="vertical-align-top">Status:</span> <span class="value">Ongoing</span></li>
+                        <!--<li><span class="vertical-align-top">Started:</span> <span class="value">{{ page.date | date_to_long_string }}</span></li>-->
+                        <li><span class="vertical-align-top">GitHub:</span> <span class="value"><a href="{{ page.folder }}">link</a></span></li>
+                        <li><span class="vertical-align-top">Responsible:</span> <span class="value"><a href="{{ page.responsible.link }}">{{ page.responsible.name }}</a></span></li>
                         </ul>
                     </div>
                 </div>

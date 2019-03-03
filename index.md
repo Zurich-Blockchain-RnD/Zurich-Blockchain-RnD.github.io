@@ -40,7 +40,7 @@ points:
 <!-- end we work section -->
 
 <!-- start feature section -->
-
+<!--
     <div class="container">
         <div class="row margin-100px-bottom sm-margin-30px-bottom">
 
@@ -88,18 +88,15 @@ points:
 
             </div>
         </div>
-    </div>
+    </div>-->
 </section>
 <!-- end feature section -->
-
-<!-- start bloquote section -->
-<section class="no-padding">
-    <div class="container-fluid">
-
-        <div class="row">
-            <div class="col-12" id="map"></div>
-        </div>
-
+<section class="bg-very-light-gray">
+    <div class="container">
+                <ul>
+                <li>Small description</li>
+                <li>Introduction to collaborative structure</li>
+                <li>Meetup link or how to collaborate from away</li>
+                </ul>
     </div>
-</section>
-<!-- end bloquote section -->
+ </section>

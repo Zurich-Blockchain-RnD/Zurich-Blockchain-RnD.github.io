@@ -2,7 +2,9 @@
 title: Solidity Environment Setup
 layout: default
 thumbnail: /assets/img/blog/getStarted/Do-not-delete.png
-responsible: aa
+responsible:
+        link: 
+        name:
 folder: https://github.com/Zurich-Blockchain-RnD/solidity-environment-setup
 description: Here goes the description of the Solidity Environment Setup. This will be shown also on the Get Started page.
 ---
