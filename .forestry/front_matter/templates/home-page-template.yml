@@ -20,3 +20,5 @@ fields:
   default: ''
 - type: text
   default: ANOTHER pin
+pages:
+- Zurich-Blockchain-RnD.github.io\getStarted/title-pin.md
