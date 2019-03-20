@@ -1,19 +1,22 @@
 ---
 label: Home page template
 hide_body: false
+display_field: points
 fields:
 - name: title
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: TITLE pin
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: LAYOUT pin
 - name: points
   label: Points
   type: list
   hidden: false
   default: ''
+- type: text
+  default: ANOTHER pin
