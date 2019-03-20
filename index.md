@@ -41,25 +41,26 @@ It doesn't matter if you are a programmer or a crypto enthusiast, whether you wo
 
 <!-- start feature section -->
 <section class="bg-very-light-gray">
-    <div class="container">
-        <div class="row margin-50px-bottom sm-margin-30px-bottom">
+<div class="container">
+<div class="row margin-50px-bottom sm-margin-30px-bottom">
 
             <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
                 <img src="img/content/feature-02.jpg" alt="" class="border-radius-5 box-shadow-primary" />
             </div>
-
+    
             <div class="col-lg-6 col-md-12">
-
+    
                 <div class="section-heading half left">
                     <h4>Analysis and Consulting</h4>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standardLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-
+                <p>Section 1.1</p>
+    
                 <a class="butn medium theme" href="javascript:void(0)"><span>Read more</span></a>
-
+    
             </div>
         </div>
     </div>
+
 </section>
 <!-- end feature section -->
 <section class="bg-very-light-gray">
@@ -69,4 +70,4 @@ It doesn't matter if you are a programmer or a crypto enthusiast, whether you wo
 <li>Introduction to collaborative structure</li>
 <li>Meetup link or how to collaborate from away</li>
 <li>test</li>
- </ul> </div> </section>
+</ul> </div> </section>
