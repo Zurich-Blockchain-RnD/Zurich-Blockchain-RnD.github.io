@@ -1,7 +1,6 @@
 ---
 label: Home page template
 hide_body: false
-display_field: points
 fields:
 - name: title
   label: Title
@@ -20,5 +19,10 @@ fields:
   default: ''
 - type: text
   default: ANOTHER pin
+- type: file
+  name: test_file_upload
+  label: Test file upload
+  description: test file upload description
+  hidden: true
 pages:
 - Zurich-Blockchain-RnD.github.io\getStarted/title-pin.md
