@@ -9,6 +9,8 @@ sections:
   label: Get Started
   create: all
   match: "**/*"
+  templates:
+  - home-page-template
 - type: jekyll-posts
   label: Posts
   create: all
