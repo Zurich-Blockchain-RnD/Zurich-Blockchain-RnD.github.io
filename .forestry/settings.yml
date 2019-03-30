@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: https://github.com/Zurich-Blockchain-RnD/Zurich-Blockchain-RnD.github.io/blob/master/about.md
+  label: About Us
+  create: all
+  match: "**/*"
+- type: directory
   path: Zurich-Blockchain-RnD.github.io\getStarted
   label: Get Started
   create: all
