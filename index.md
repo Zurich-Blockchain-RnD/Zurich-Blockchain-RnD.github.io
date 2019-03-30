@@ -18,7 +18,7 @@ points:
 <p class="text-white width-80 xs-width-100 center-col font-size16 line-height-30 xs-font-size14 xs-line-height-26">
 The revolution of blockchain is not going to happen from outside the system; it's going to happen from within the system.
 - <i>Brad Garlinghouse</i></p>
-<a class="butn medium theme font-size22 font-weight-650" href="https://zbrd.org/guides/2019/02/27/Setup-ZBD-Collaboration-environment.html"><span>Get started</span></a>
+<a class="butn medium theme font-size22 font-weight-650" href="https://zbrd.org/guides/Setup-collaboration-environment.md"><span>Get started</span></a>
 </div>
 </div>
 </div>
