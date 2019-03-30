@@ -43,16 +43,8 @@ It doesn't matter if you are a programmer or a crypto enthusiast, whether you wo
 <!-- start feature section -->
 <section class="bg-very-light-gray">
 <div class="container">
-<div class="absolute-middle-center z-index-1 width-100">
 <div class="row margin-50px-bottom sm-margin-30px-bottom">
-
-            <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
-                <img src="img/content/feature-02.jpg" alt="" class="border-radius-5 box-shadow-primary" />
-            </div>
-    
-            <div class="col-lg-6 col-md-12">
-    
-                <div class="section-heading half left">
+<div class="section-heading">
                     <h4>Upcoming events</h4>
                 </div>
                 <p>We meet every two weeks, join us!</p>
@@ -62,7 +54,6 @@ It doesn't matter if you are a programmer or a crypto enthusiast, whether you wo
             </div>
         </div>
     </div>
-
-</section>
+    </section>
 <!-- end feature section -->
 
