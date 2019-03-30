@@ -1,5 +1,5 @@
 ---
-title: Setup ZBD Collaboration Environment
+title: Setup Collaboration Environment
 layout: default
 thumbnail: /assets/img/blog/getStarted/Do-not-delete.png
 responsible:
