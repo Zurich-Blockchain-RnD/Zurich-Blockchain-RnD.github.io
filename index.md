@@ -30,7 +30,7 @@ The revolution of blockchain is not going to happen from outside the system; it'
 <!-- start we work section -->
 <section class="bg-very-light-gray">
 <div class="container">
-<div class="section-heading"><span>How We Work</span>
+<div class="section-heading" font-size18><span>How we work</span>
 <h3>{{page.points\[0\]}} - {{page.points\[1\]}} - {{page.points\[2\]}}</h3>
 <p class="width-55 sm-width-75 xs-width-95">
 It doesn't matter if you are a programmer or a crypto enthusiast, whether you work in the field or not. If you have an idea for a project, if you want to participate in one of the existing ones, or if you simply want to have a chat, come and visit us during one of our meetups to meet us and join our group.
@@ -47,10 +47,8 @@ It doesn't matter if you are a programmer or a crypto enthusiast, whether you wo
 <div class="section-heading"><h4>Upcoming events</h4>
 <p class="width-55 sm-width-75 xs-width-95">
 We meet every two weeks, join us!
-  
-  
 </p>
-<a class="butn medium theme" href="https://www.meetup.com/zurichblockchainrnd/events/"><span>Upcoming events</span></a>
+<a class="butn medium theme margin-20px-top" font-size18 font-weight-650 href="https://www.meetup.com/zurichblockchainrnd/events/"><span>Upcoming events</span></a>
 </div>
 </div>
 
