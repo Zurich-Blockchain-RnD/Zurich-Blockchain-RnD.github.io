@@ -51,11 +51,11 @@ It doesn't matter if you are a programmer or a crypto enthusiast, whether you wo
             <div class="col-lg-6 col-md-12">
     
                 <div class="section-heading half left">
-                    <h4>Analysis and Consulting</h4>
+                    <h4>Upcoming events</h4>
                 </div>
-                <p>Section 1.1</p>
+                <p>We meet every two weeks, please join us!</p>
     
-                <a class="butn medium theme" href="javascript:void(0)"><span>Read more</span></a>
+                <a class="butn medium theme" href="https://www.meetup.com/zurichblockchainrnd/events/"><span>Upcoming events</span></a>
     
             </div>
         </div>
