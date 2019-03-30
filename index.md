@@ -45,14 +45,12 @@ It doesn't matter if you are a programmer or a crypto enthusiast, whether you wo
 <div class="container">
 <div class="row margin-50px-bottom sm-margin-30px-bottom">
 <div class="section-heading">
-                    <h4>Upcoming events</h4>
-                </div>
-                <p>We meet every two weeks, join us!</p>
-    
-                <a class="butn medium theme" href="https://www.meetup.com/zurichblockchainrnd/events/"><span>Upcoming events</span></a>
-    
-            </div>
-        </div>
-    </section>
+<h4>Upcoming events</h4>
+</div>
+<p class="width-55 sm-width-75 xs-width-95">We meet every two weeks, join us!</p>
+<a class="butn medium theme" href="https://www.meetup.com/zurichblockchainrnd/events/"><span>Upcoming events</span></a>
+</div>
+</div>
+</section>
 <!-- end feature section -->
 
