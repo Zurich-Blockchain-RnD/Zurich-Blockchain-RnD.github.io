@@ -53,7 +53,6 @@ It doesn't matter if you are a programmer or a crypto enthusiast, whether you wo
     
             </div>
         </div>
-    </div>
     </section>
 <!-- end feature section -->
 
